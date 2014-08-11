@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title></title>
+    <style type="text/css">
+        *{
+            font-family: "微软雅黑";
+            color:#FFFFFF;
+            font-size: 100%;
+        }
+        .information{
+            width:80%;
+            background:#EF8B69;
+            border-radius: 5px;
+            height: 80px;
+            margin-left: 15%;
+            position: relative;
+        }
+        .res{
+            display: block;
+            font-size: 2em;
+            margin:0 auto;
+            /*text-align: center;*/
+            position: absolute;
+            right: 20px;
+        }
+        .head{
+            height:80px;
+            width: 80px;
+            border:3px #FFFFFF solid;
+            border-radius: 43px;
+            margin-top: -3px;
+            position:absolute;
+            top:0px;
+            left: -43px;
+            z-index: 0;
+            /*left:-43px;*/
+        }
+        .name{
+            line-height: 40px;
+            margin-left: 45px;
+            font-size: 1.2em;
+        }
+        .nump,.recommend{
+            width:40%;
+            height:40px;
+            float: left;
+            margin-left: 10%;
+            background:#60C5B9;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .num{
+            display:inline-block;
+            background:#213858;
+            width:60%;
+            height:40px;
+            position: relative;
+            left:-25%;
+            border-radius: 30px;
+            text-align: center;
+            line-height: 40px;
+            border:3px #FFFFFF solid;
+            margin-top: -3px;;
+        }
+        .recommend{
+            margin-left: 2%;
+            width:48%;
+            background:#F08B69;
+            text-align: center;
+            line-height: 40px;
+            font-size: 1.2em;
+        }
+        .coin{
+            width:80%;
+            margin:0 auto;
+            display:block;
+        }
+        .column{
+            background:#21BCD7;
+            width:28%;
+            height:auto;
+            border-radius:5px;
+            text-align: center;
+            font-size: 1.2em;
+            float: left;
+            margin-left: 4%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="information">
+    <span class="name">姓名：王二麻</span><br/>
+    <span class="name">用户类型：大众经理</span>
+    <img class="head" src="imgs/head.png" alt=""/>
+</div>
+<div style="overflow: hidden;margin-bottom: 10px">
+    <div class="nump"><span class="num">推荐人数</span></div>
+    <div class="nump"><span class="num">总佣金</span></div>
+</div>
+<div style="overflow: hidden;margin-bottom: 10px">
+    <div class="nump"><span class="num">推荐人数</span></div>
+    <div class="recommend">我要推荐</div>
+</div>
+<div>
+    <div class="column"><img class="coin" src="imgs/kehu.png" alt=""/>我的客户</div>
+    <div class="column" style="background:#F08B69"><img class="coin" src="imgs/daili.png" alt=""/>我的代理</div>
+    <div class="column" style="background:#12B9A5"><img class="coin" src="imgs/xize.png" alt=""/>活动细则</div>
+    <div class="column" style="background:#12B9A5"><img class="coin" src="imgs/luntan.png" alt=""/>微论坛</div>
+    <div class="column"><img class="coin" src="imgs/ziyuan.png" alt=""/>客户资源</div>
+    <div class="column" style="background:#F08B69"><img class="coin" src="imgs/loupan.png" alt=""/>楼盘资源</div>
+</div>
+</body>
+</html>
